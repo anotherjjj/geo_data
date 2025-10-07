@@ -1,6 +1,6 @@
 # Methylation Dataset Creator
 
-Скрипт для автоматического сбора данных о метилировании ДНК из базы данных GEO.
+Скрипт для сбора данных о метилировании ДНК из базы данных GEO.
 
 ## Описание
 
@@ -13,11 +13,6 @@
 
 ```bash
 # Создать датасет с параметрами по умолчанию
-python methylation_dataset_creator.py
+python tablecreator.py
 
-# Создать датасет с указанием количества datasets
-python methylation_dataset_creator.py --max-datasets 500
-
-# Указать выходную директорию
-python methylation_dataset_creator.py --output /path/to/output
 ```
